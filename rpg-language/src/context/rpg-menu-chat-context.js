@@ -5,7 +5,7 @@ const MenuChatContext = createContext();
 
 export const MenuChatProvider = ({ children }) => {
   const [sharedState, setSharedState] = useState({
-    name: "Barista",
+    name: " Cafe Barista",
     url: "api/rpgchat/cafe/barista",
   });
 

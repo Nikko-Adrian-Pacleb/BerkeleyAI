@@ -34,7 +34,7 @@ export default function CharacterCard({ name, description, url }) {
         >
           &times;
         </button>
-        <h1 className="text-lg font-bold mb-1">{name}</h1>
+        <h1 className="text-xl font-bold mb-1 bg-bgblack">{name}</h1>
         <p className="text-gray-700 text-sm mb-2">{description}</p>
         <button
           onClick={handleClick}

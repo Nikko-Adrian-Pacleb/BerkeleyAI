@@ -6,7 +6,7 @@ import { MenuChatProvider } from "@/context/rpg-menu-chat-context";
 
 export default function Home() {
   return (
-    <main className="h-screen mx-6 flex flex-col">
+    <main className="h-screen px-6 flex flex-col bg-bgblack text-bgwhite">
       <Navbar />
       <MenuChatProvider className="flex-1">
         <div className="flex h-full">
